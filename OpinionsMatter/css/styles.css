@@ -2,6 +2,15 @@
 1. COLORS
 2. TYPOGRAPHY
 3. GLOBAL STYLES
+4. CONTAINERS
+5. HEADINGS
+6. NAVIGATION
+7. MAIN CONTENT
+8. LEFT COLUMN
+9. FORM
+10. BUTTONS
+11. FOOTER
+12. SOCIAL MEDIA
 ----------------------- */
 
 
@@ -63,3 +72,98 @@ legend {
 img {
     max-width: 100%;
 }
+
+header {}
+
+aside {}
+
+main {}
+
+footer {}
+
+
+/* ----- 4.Containers 
+------------------------
+--------------------- */
+
+.everything-container {}
+
+.top-title-container {}
+
+.nav-container {}
+
+.news-thumbnail-container {}
+
+.main-article-container {}
+
+.form-container {}
+
+.social-container {}
+
+
+/* ----- 5.HEADINGS 
+------------------------
+--------------------- */
+
+.top-title {}
+
+.thumbnail-heading {}
+
+.main-article-heading {}
+
+.comments-heading {}
+
+.text-area-legend {}
+
+
+/* ----- 6.NAVIGATION 
+------------------------
+--------------------- */
+
+.nav-container {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+
+/* ----- 7.MAIN CONTENT 
+------------------------
+--------------------- */
+
+
+/* ----- 8.LEFT COLUMN 
+------------------------
+--------------------- */
+
+
+/* ----- 9.FORM 
+------------------------
+--------------------- */
+
+.comments-form {}
+
+.message {}
+
+fieldset {}
+
+
+/* ----- 10.BUTTONS 
+------------------------
+--------------------- */
+
+.sign-in {}
+
+.sign-up {}
+
+.submit {}
+
+
+/* ----- 11.FOOTER 
+------------------------
+--------------------- */
+
+
+/* ----- 12.SOCIAL MEDIA 
+------------------------
+--------------------- */
