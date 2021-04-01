@@ -1,0 +1,65 @@
+/* ----- TABLE OF CONTENTS
+1. COLORS
+2. TYPOGRAPHY
+3. GLOBAL STYLES
+----------------------- */
+
+
+/* ----- 1.COLORS 
+------------------------
+--------------------- */
+
+
+/*
+#050f1b, rgb(5, 14, 26), hsl(213, 69%, 6%)
+#bf953f, rgb(191, 149, 63), hsl(40, 50%, 50%);
+#ffffff, rgb(255, 255, 255), hsl(0, 0%, 100%);
+#77797c, rgb(119, 121, 124), hsl(216, 2%, 48%);
+#c00720, rgb(192, 7, 32), hsl(352, 93%, 39%);
+*/
+
+
+/* ----- 2.TYPOGRAPY 
+------------------------
+--------------------- */
+
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* ----- 3.GLOBAL STYLES 
+------------------------
+--------------------- */
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    color: #c00720;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
