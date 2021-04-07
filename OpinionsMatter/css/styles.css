@@ -41,6 +41,8 @@ font-family: 'Roboto', sans-serif;
         
         body {
             font-family: 'Roboto', sans-serif;
+            overflow-y: auto;
+            overflow-x: hidden;
         }
         
         h1,
@@ -128,7 +130,7 @@ font-family: 'Roboto', sans-serif;
             border-radius: 8px;
         }
         
-        .form-container {}
+        .comments-form-container {}
         
         .social-container {}
         
@@ -288,4 +290,95 @@ font-family: 'Roboto', sans-serif;
         .article-image {
             width: 75%;
             height: auto;
+        }
+        
+        .sign-in-modal-container {
+            background: rgb(135, 135, 135);
+            background: linear-gradient(139deg, rgba(135, 135, 135, 1) 0%, rgba(133, 133, 133, 1) 5%, rgba(24, 25, 25, 1) 50%, rgba(133, 133, 133, 1) 95%, rgba(135, 135, 135, 1) 100%);
+            color: white;
+            display: grid;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 30px;
+            border-radius: 6px;
+            border: 3px solid #77797c;
+            box-shadow: 5px 5px 10px black;
+            text-shadow: 0.5px 0.5px 1px #bf953f, -0.5px -0.5px 1px #bf953f, -0.5px 0.5px 1px #bf953f, 0.5px -0.5px 1px #bf953f, 0px 0.5px 0.5px #bf953f, 0.5px 0.5px 1px #bf953f, -0.5px 0px 1px #bf953f, 0px -0.5px 1px #bf953f, 0px 0px 1px #bf953f, 2px 2px 5px black;
+            display: none;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .sign-in-form {
+            width: 50vw;
+            height: 20vh;
+        }
+        
+        .sign-in-form input {
+            margin: 10px;
+            border-radius: 6px;
+        }
+        
+        .sign-in-form a {
+            margin: 10px;
+            text-decoration: none;
+            text-shadow: none;
+            font-weight: 900;
+        }
+        
+        .form-btn-container {
+            text-align: center;
+        }
+        
+        .form-btn {
+            margin-top: 10px;
+            padding: 10px 25%;
+            border-radius: 6px;
+            background-color: #bf953f;
+            text-shadow: 0.5px 0.5px 1px black, -0.5px -0.5px 1px black, -0.5px 0.5px 1px black, 0.5px -0.5px 1px black, 0px 0.5px 0.5px black, 0.5px 0.5px 1px black, -0.5px 0px 1px black, 0px -0.5px 1px black, 0px 0px 1px black, 2px 2px 5px black;
+            color: white;
+            font-weight: 900;
+            font-size: 20px;
+        }
+        
+        .exit-container {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            text-shadow: 5px 5px 10px black;
+        }
+        
+        .exit-container i {
+            font-size: 24px;
+        }
+        
+        .sign-up-modal-container {
+            position: absolute;
+            background: rgb(135, 135, 135);
+            background: linear-gradient(139deg, rgba(135, 135, 135, 1) 0%, rgba(133, 133, 133, 1) 5%, rgba(24, 25, 25, 1) 50%, rgba(133, 133, 133, 1) 95%, rgba(135, 135, 135, 1) 100%);
+            color: white;
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            border: 3px solid #77797c;
+            box-shadow: 5px 5px 10px black;
+            text-shadow: 0.5px 0.5px 1px #bf953f, -0.5px -0.5px 1px #bf953f, -0.5px 0.5px 1px #bf953f, 0.5px -0.5px 1px #bf953f, 0px 0.5px 0.5px #bf953f, 0.5px 0.5px 1px #bf953f, -0.5px 0px 1px #bf953f, 0px -0.5px 1px #bf953f, 0px 0px 1px #bf953f, 2px 2px 5px black;
+            visibility: hidden;
+        }
+        
+        .show {
+            visibility: visible;
+        }
+        
+        .overflow {
+            overflow: hidden;
+        }
+        
+        .hide {
+            visibility: hidden;
         }
