@@ -17,11 +17,11 @@ $(document).ready(() => {
 
     $('.sign-in').click(function() {
         // modal.classList.add('sign-in-show');
-        $('.sign-in-modal-container').slideDown('slow');
+        $('.sign-in-modal-container').toggle('slow');
     });
 
     $('.exit').click(function() {
-        $('.sign-in-modal-container').slideUp('slow');;
+        $('.sign-in-modal-container').hide('slow');;
     });
 
     $('#gear').click(function() {
@@ -33,6 +33,13 @@ $(document).ready(() => {
     });
 
     $('.sign-up').click(function() {
+        $('.sign-up-modal-container').slideDown('slow');
+        body.classList.add('overflow');
+        signUp.classList.add('hide');
+        signIn.classList.add('hide');
+    });
+
+    $('.not-a-member').click(function() {
         $('.sign-up-modal-container').slideDown('slow');
         body.classList.add('overflow');
         signUp.classList.add('hide');
